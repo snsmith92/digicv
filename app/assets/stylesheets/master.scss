@@ -1,13 +1,35 @@
 @import "bootstrap";
 
 h1 {
-  font-family: ;
-  color: 
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  color: #4277f4;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
 }
 
 h2 {
-  font-family: ;
-  color: ;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  color: #3e3f42;
   text-align: center;
+  font-size: 25px;
 }
+
+body {
+  background: image_url('intersection.png');
+}
+
+.box {
+  float: left;
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 60px;
+  }
+
+.box2 {
+  float: right;
+  width: 42.5%;
+  margin-right: 5%;
+  margin-top: 60px;
+  }
