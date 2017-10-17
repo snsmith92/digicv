@@ -1,0 +1,8 @@
+<h1> Enter your CV details </h1>
+<%= simple_form_for @cv do |f| %>
+  <%= f.input :company %>
+  <%= f.input :description %>
+  <%= f.input :dates %>
+  <br />
+  <%= f.submit 'Upload', class: 'btn btn-danger' %>
+<% end %>
