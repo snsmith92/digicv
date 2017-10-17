@@ -9,12 +9,25 @@
   </head>
 
   <body>
+    <header class="row">
+      <div class="col-6">
+        <%= link_to root_path do %>
+          <div class="logo-style">
+            dc
+          </div>
+        <% end%>
+      </div>
+      <div class="col-6 offset-1 offset-sm-0 col-sm-5 links">
+        <%= link_to 'About Us', '#'%>
+        &nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal">
+         CV Upload
+        </button>
+      </div>
+    </header>
 
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-      Upload your CV Details
-    </button>
- 
+  <br class="clear"> 
+
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -35,12 +48,13 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <%= f.submit 'Upload' , class: 'btn btn-danger' %>
+              <%= f.submit 'Upload' , class: 'btn btn-primary' %>
             </div>
           <% end %>
         </div>
       </div>
     </div>
     <%= yield %>
+
   </body>
 </html>

@@ -1,7 +1,9 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 h1 {
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'Raleway', sans-serif;
   color: #4277f4;
   text-align: center;
   padding-top: 20px;
@@ -10,14 +12,20 @@ h1 {
 }
 
 h2 {
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'Raleway', sans-serif;
   color: #3e3f42;
+  font-weight: bold;
   text-align: center;
   font-size: 25px;
 }
 
 body {
-  background: image_url('intersection.png');
+  background: image_url('geometry.png');
+}
+
+p{
+  font-family: 'Nunito', sans-serif;
+  font-size:18px;
 }
 
 .box {
@@ -33,3 +41,46 @@ body {
   margin-right: 5%;
   margin-top: 60px;
   }
+
+.cv-upload {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-size: 18px;
+}
+
+.description {
+  text-align: center;
+  border: 5px solid blue;
+  padding: 25px;
+  margin: 25px;
+}
+
+.logo-style {
+  background-color: #4277f4;
+  color: white;
+  font: 48px/64px Helvetica, Arial, sans-serif;
+  height: 1.5em;
+  width: 1.5em;
+  text-align: center;
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 0.14em blue;
+  text-decoration: none
+}
+
+a:hover .logo-style {
+  background-color: #4772b7;
+  text-decoration:none;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  padding: 30px;
+  border-bottom: 2px solid #222222;
+}
+
+.links {
+  text-align: right;
+}
