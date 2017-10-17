@@ -7,4 +7,7 @@ class CvsController < ApplicationController
     @cv = Cv.new
   end
 
+  def about
+  end
+
 end
