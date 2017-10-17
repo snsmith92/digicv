@@ -1,0 +1,2 @@
+module DigicvsHelper
+end
